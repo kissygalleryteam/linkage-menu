@@ -1,0 +1,112 @@
+{
+    "data":[
+        {
+            "id": "340000",
+            "currentName": "安徽省",
+            "currentNameLetter": "A",
+            "abbName": "安徽",
+            "children": [
+                {
+                    "id": "341000",
+                    "currentName": "黄山市",
+                    "currentNameLetter": "H",
+                    "abbName": "黄山",
+                    "children": [
+                        {
+                            "id": "1",
+                            "currentName": "测试1",
+                            "href": "http://gallery.kissyui.com/1"
+                        },
+                        {
+                            "id": "2",
+                            "currentName": "测试2",
+                            "href": "http://gallery.kissyui.com/2"
+                        },
+                        {
+                            "id": "3",
+                            "currentName": "测试3",
+                            "href": "http://gallery.kissyui.com/3"
+                        }
+                    ]
+                },
+                {
+                    "id": "340500",
+                    "currentName": "马鞍山市",
+                    "currentNameLetter": "M",
+                    "abbName": "鞍山",
+                    "children": [
+                        {
+                            "id": "1",
+                            "currentName": "测试4",
+                            "href": "http://gallery.kissyui.com/1"
+                        },
+                        {
+                            "id": "2",
+                            "currentName": "测试5",
+                            "href": "http://gallery.kissyui.com/2"
+                        },
+                        {
+                            "id": "3",
+                            "currentName": "测试6",
+                            "href": "http://gallery.kissyui.com/3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "234234",
+            "currentName": "福建省",
+            "currentNameLetter": "A",
+            "abbName": "福建",
+            "children": [
+                {
+                    "id": "341000",
+                    "currentName": "厦门市",
+                    "currentNameLetter": "H",
+                    "abbName": "厦门",
+                    "children": [
+                        {
+                            "id": "1",
+                            "currentName": "测试1",
+                            "href": "http://gallery.kissyui.com/1"
+                        },
+                        {
+                            "id": "2",
+                            "currentName": "测试2",
+                            "href": "http://gallery.kissyui.com/2"
+                        },
+                        {
+                            "id": "3",
+                            "currentName": "测试3",
+                            "href": "http://gallery.kissyui.com/3"
+                        }
+                    ]
+                },
+                {
+                    "id": "340500",
+                    "currentName": "福州市",
+                    "currentNameLetter": "M",
+                    "abbName": "福州",
+                    "children": [
+                        {
+                            "id": "1",
+                            "currentName": "测试1",
+                            "href": "http://gallery.kissyui.com/1"
+                        },
+                        {
+                            "id": "2",
+                            "currentName": "测试2",
+                            "href": "http://gallery.kissyui.com/2"
+                        },
+                        {
+                            "id": "3",
+                            "currentName": "测试3",
+                            "href": "http://gallery.kissyui.com/3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

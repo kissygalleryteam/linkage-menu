@@ -1,9 +1,9 @@
 .lm-menu {
   height: 100%;
+  overflow: auto;
   position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
 }
 .lm-menu a {
   color: #C1C1C1;

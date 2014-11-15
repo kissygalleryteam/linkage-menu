@@ -1,11 +1,11 @@
 /*
-Thu Oct 30 2014 16:28:59 GMT+0800 (CST)
+Sat Nov 15 2014 20:09:44 GMT+0800 (CST)
 combined files by KMD:
 
 index.js
 */
 
-KISSY.add('kg/linkage-menu/1.0.0/index',["node","base","menu"],function(S ,require, exports, module) {
+KISSY.add('kg/linkage-menu/1.0.1/index',["node","base","menu"],function(S ,require, exports, module) {
 //多级联动菜单
 //适用于pad端和无线端
 //by 剑平（明河）

@@ -10,7 +10,7 @@ LinkageMenu暂时不支持点击菜单项再去加载数据。
 
 ## 初始化组件
 		
-    S.use('kg/linkage-menu/1.0.1/index,io,kg/linkage-menu/1.0.1/index.css', function (S, LinkageMenu,io) {
+    S.use('kg/linkage-menu/1.0.2/index,io,kg/linkage-menu/1.0.2/index.css', function (S, LinkageMenu,io) {
         io.getJSON('./test.json').then(function(result){
             var data = result[0].data;
             var linkageMenu = new LinkageMenu({

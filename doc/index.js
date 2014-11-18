@@ -75,7 +75,11 @@ var LinkageMenu = Base.extend({
     },
     //给菜单增加等级标
     _addLevelSign: function(menu,num){
+        var self = this;
+        var menus = self.get('menus');
+        if(!menus[num]) menus[num] = [];
         menu.set('level',num);
+        menus[num].push(menu);
         var $srcNode = menu.$el;
         $srcNode.addClass('lm-level-'+num);
         return num;
@@ -91,8 +95,13 @@ var LinkageMenu = Base.extend({
     },
     _menuShow: function(menu){
         var self = this;
+        var level = menu.get('level');
+        var menus = self.get('menus');
         var prefixCls = self.get('prefixCls');
-        menu.show();
+        menus = menus[level];
+        S.each(menus,function(m){
+            m.$el.removeClass(prefixCls+'show');
+        });
         menu.$el.addClass(prefixCls+'show');
     }
 },{
@@ -114,7 +123,8 @@ var LinkageMenu = Base.extend({
         //菜单实例
         menu:{value:''},
         //生成dom的class前缀
-        prefixCls:{value:'lm-'}
+        prefixCls:{value:'lm-'},
+        menus:{value:[]}
     }
 });
 

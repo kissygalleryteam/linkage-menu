@@ -1,1 +1,1 @@
-KISSY.config("modules",{"kg/linkage-menu/1.0.2/index":{requires:["node","base","menu"]}});
+KISSY.config("modules",{"kg/linkage-menu/1.0.1/index":{requires:["node","base","menu"]}});
